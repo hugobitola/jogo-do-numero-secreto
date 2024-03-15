@@ -34,8 +34,7 @@ function verificarChute()
 
 function reiniciarJogo()
 {
-  console.clear();
-  console.log('Reiniciar jogo');
+  console.log('(Re)iniciar jogo');
 
   if(numerosSorteados.length >= maximo - minimo + 1) {
     console.log('numerosSorteados lotou! Zera tudo!');
@@ -56,9 +55,9 @@ function reiniciarJogo()
 
 function exibeTextoNaTag(tag, texto)
 {
+  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.3});
   let campo = document.querySelector(tag);
   campo.innerHTML = texto;
-  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 function limparCampo(campo)
