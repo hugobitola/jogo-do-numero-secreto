@@ -1,6 +1,5 @@
 <h1>Jogo do número secreto</h1>
-
-<h2> Sobre</h2>
+<h2>Sobre</h2>
 <p>Projeto utilizado nos cursos de lógica de programação da Alura.</p>
 
 ## Tecnologias
@@ -10,6 +9,6 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
+## Visualização
 <p> Este site está publicado no vercel no link abaixo: </p>
-
 https://jogo-do-numero-secreto-hugobitolas-projects.vercel.app/
